@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    docker { image 'python:3.9.20-alpine3.20'}
+    docker { image 'bitnami/python:3.8.20-debian-12-r4'}
   }
   stages {
     stage('Run') {

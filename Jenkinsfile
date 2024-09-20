@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('Run') {
       steps {
         sh 'python3 hello.py'
       }

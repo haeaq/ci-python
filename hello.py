@@ -1,2 +1,2 @@
-print ("Hello, World!")
-print ("ci-success")
+print("Hello, World!")
+print("ci-success")

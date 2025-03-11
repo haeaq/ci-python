@@ -1,10 +1,15 @@
 pipeline {
   agent any
   stages {
-    stage('Run') {
+    stage('Hello') {
       steps {
         echo 'hello world'
         sh 'docker ps'
+      }
+    }
+    stage('Run') {
+      steps {
+        sh 'python3 hello.py'
       }
     }
   }

@@ -4,7 +4,6 @@ pipeline {
     stage('Hello') {
       steps {
         echo 'hello world'
-        sh 'docker ps'
       }
     }
     stage('Run') {
